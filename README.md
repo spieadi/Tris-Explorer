@@ -1,32 +1,35 @@
-# Alexa Does It Fly Skill
+# Tris Explorer
 
 ## Introduction
 
-This is an alexa skill based on the popular Indian folk game "Chidiya Udd", meaning, Does Bird Fly? with the purpose of helping kids learn which birds & animals can fly. It can also be used a a boilerplate for building other such quiz based alexa skills.
+Talk to Tris, she knows everything. just give her a random date and she will tell you everything that happened on that date in the past. get to know about interesting events that occurred on that date. also get to know the famous personalities who were born and died on that date.
 
 ## [YouTube Demo](https://www.youtube.com/watch?v=M23cEWHVkOM)
 
-## [A submission to Alexa Skills Challenge: Kids on Devpost](https://devpost.com/software/does-it-fly-chidiya-udd)
+### Testing 
+You can test this skill using an Amazon Echo device or at [Echosim](https://echosim.io). you can test this skill using:
 
-## How does it work?
+- You invoke the skill saying "Alexa, open tris explorer."
 
-### Workflow
-You can test out this skill using an Amazon Echo device or at [Echosim](https://echosim.io). The workflow is as follows:
-- You invoke the skill saying "Alexa, start does it fly."
-- Alexa will ask you a question, and you have to tell whether the asked animal or bird or object flies or not. You have to respond with a Yes or No. 
-- If you are able to answer all of them correctly, you win, else Alexa wins. If you respond incorrectly, you lose and Alexa will greet you with the asked animal's or bird's sound and tell you how many you got correctly.
-- Alexa will also give you fun facts within the companion app about the asked animal along with the sound they make to continue the learning.
-- And if you just want to know what sound does the animal makes, you can ask the skill for "What does the (animal's/bird's name) say" to hear the sound they make. If you want to hear any other animal's sound, ask again, or to start playing the "Does It Fly?" game just tell Alexa your name.
+- the skill will be invoked with introduction and then it will ask you for a random date.
 
-### Internal Implementation
+- after user said a random date tris will tell you differenr interesting events happened on the date in the past and then it will ask the user whether he/she wants the list of famous personalities born on that date and based on the input from the user the skill will either proceed further or will wxit.
+
+-Similarly the skill will ask you whether he/she eants to know the list of famous persons died on that day.
+
+## Under the Hood 
+
+### Skill Implementation 
 
 - Create an Alexa Skill in the Alexa Skill Builder portal and define the interaction models as well as the intent schema. This sets up the framework for the behavior of the skill.
 - Create an AWS Lambda function that interfaces with the Amazon Alexa and translates the various intents into requests that can be passed on. This lambda function is written in Node.js using [Alexa Skills Kit](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs). 
 
-## How to get it up and running?
+## Skill setup?
 
-### Setting up Your Alexa Skill in the Developer Portal
-To link it with your Amazon Echo Device, go to your [Amazon developer console](https://developer.amazon.com/edw/home.html#/skills).
+# Front End
+
+### Setting up Your Alexa Skill in the Alexa Developer Console
+Open Your developer account or click on the link given  [Amazon developer console](https://developer.amazon.com/edw/home.html#/skills).
 
 1. Create a new skill. Call it `Does it Fly`. Give the invocation name as `does it fly`. Click next.
 
