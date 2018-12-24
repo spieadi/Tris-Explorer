@@ -39,7 +39,7 @@ Give the invocation name as `Tris Explorer`. under the invocation headline from 
 
 3. Click on the "JSON Editor" item under **Dashboard** on the left side of the skill builder.
 
-4. In the textfield provided, replace any existing code with the code provided in the `speechAssets/intentSchema.json` and click on "Save Model".
+4. In the textfield provided, replace any existing code with the code provided in the `Speech Assets/intentSchema.json` and click on "Save Model".
 
 5. Click on the **Save Model** button, and then click on the **Build Model** button.
 
