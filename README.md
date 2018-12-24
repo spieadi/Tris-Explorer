@@ -1,15 +1,15 @@
 # Tris Explorer
 
-## Introduction
+## Skill OverView
 
 Talk to Tris, she knows everything. just give her a random date and she will tell you everything that happened on that date in the past. get to know about interesting events that occurred on that date. also get to know the famous personalities who were born and died on that date.
 
-## [YouTube Demo](https://www.youtube.com/watch?v=Lp6QkvmUtEA)
+## [YouTube Video](https://www.youtube.com/watch?v=Lp6QkvmUtEA)
 
 ### Testing 
-You can test this skill using an Amazon Echo device or at [Echosim](https://echosim.io). you can test this skill using:
+You can test this skill using an Amazon Echo device or at [Echosim](https://echosim.io) or reverb app on android and IOS. you can test this skill using:
 
-- You invoke the skill saying "Alexa, open tris explorer."
+- You can open the skill by saying "Alexa, open tris explorer."
 
 - the skill will be invoked with introduction and then it will ask you for a random date.
 
@@ -19,10 +19,10 @@ You can test this skill using an Amazon Echo device or at [Echosim](https://echo
 
 ## Under the Hood 
 
-### Skill Implementation 
+### How Skill Works 
 
-- Create an Alexa Skill in the Alexa Skill Builder portal and define the interaction models as well as the intent schema. This sets up the framework for the behavior of the skill.
-- Create an AWS Lambda function that interfaces with the Amazon Alexa and translates the various intents into requests that can be passed on. This lambda function is written in Node.js using [Alexa Skills Kit](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs). 
+- Create an Alexa Skill in the Alexa Skill Developer Console and define the interaction models as well as the intent schema. This sets up the framework for the behavior of the skill.
+- Create an AWS Lambda function that interfaces with the skill and translates the various intents into requests that connects to your service. This lambda function is written in Node.js. 
 
 ## Skill setup
 
